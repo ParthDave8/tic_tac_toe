@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun create(){
+        GameData.saveGameModel(
+            GameModel(
+                gamestatus = GameStatus.JOINED
+            )
+        )
         start()
 
     }
