@@ -63,7 +63,7 @@ class GameActivity : AppCompatActivity(),View.OnClickListener {
                     }
                     GameStatus.INPROGRESS ->{
                         binding.startGame.visibility =View.INVISIBLE
-                        currentplayer + "turn"
+                        currentplayer + " turn"
                     }
                     GameStatus.FINISHED ->{
                         if(winner.isNotEmpty()) winner + " WON"
